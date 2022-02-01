@@ -1,11 +1,26 @@
 [user]
 	name = Ruffpuff1
 	email = 73779441+Ruffpuff1@users.noreply.github.com
-
-
-
-# Other possible Git configurations.
-# - Set the default editor (nano, VS Code, etc.)
-# - Customize color output
-# - Create aliases (shortcuts for Git subcommands)
-# - Add endpoint shortcuts for commonly used URLs
+	signingkey = 64CD1F90D369CA05
+[color]
+	ui = auto
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[alias]
+	a = add --all
+	c = commit
+	cm = commit -m
+	csm = commit -S -m
+	p = push
