@@ -24,3 +24,5 @@
 	cm = commit -m
 	csm = commit -S -m
 	p = push
+[commit]
+	gpgsign = true
