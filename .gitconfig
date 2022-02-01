@@ -26,3 +26,5 @@
 	p = push
 [commit]
 	gpgsign = true
+[core]
+	ignorecase = false
