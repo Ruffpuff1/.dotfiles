@@ -25,6 +25,8 @@
 	csm = commit -S -m
 	p = push
 [commit]
-	gpgsign = true
+	gpgsign = false
 [core]
 	ignorecase = false
+[gpg]
+	program = gpg
