@@ -10,3 +10,6 @@ alias yt="yarn turbo run"
 alias g="git"
 
 export GPG_TTY=$(tty)
+
+alias gcb="g checkout -b"
+alias gac="g add && g commit -m"
