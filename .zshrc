@@ -1,4 +1,4 @@
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+source /opt/homebrew/opt/Library/powerlevel10k/powerlevel10k.zsh-theme
 
 [ -s "/Users/reese/.jabba/jabba.sh" ] && source "/Users/reese/.jabba/jabba.sh"
 
@@ -13,3 +13,5 @@ export GPG_TTY=$(tty)
 
 alias gcb="g checkout -b"
 alias gac="g add && g commit -m"
+
+export PATH="$PATH:/Documents/Dev/depot_tools"

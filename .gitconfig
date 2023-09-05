@@ -30,3 +30,5 @@
 	ignorecase = false
 [gpg]
 	program = gpg
+[init]
+	defaultBranch = main
